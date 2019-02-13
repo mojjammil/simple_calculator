@@ -1,7 +1,9 @@
+# Input variables
 num1 = float(input("Enter first number: "))
 op = input("Enter calculation operator: ")
 num2 = float(input("Enter second number: "))
 
+# Calculation function
 if op == "+":
     print(num1 + num2)
 elif op == "-":
